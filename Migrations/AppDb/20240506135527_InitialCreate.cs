@@ -3,7 +3,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace multiTenantApp.Migrations.AppDb
+namespace MultiTenantApp.Migrations.AppDb
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

@@ -1,4 +1,4 @@
-﻿namespace multiTenantApp.Services
+﻿namespace MultiTenantApp.Services
 {
     public interface ICurrentTenantService
     {

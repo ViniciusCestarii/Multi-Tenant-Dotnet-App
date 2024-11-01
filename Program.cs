@@ -1,11 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using multiTenantApp.Extensions;
-using multiTenantApp.Middleware;
-using multiTenantApp.Models;
-using multiTenantApp.Services;
-using multiTenantApp.Services.ProductService;
-using multiTenantApp.Services.TenantService;
+using MultiTenantApp.Extensions;
+using MultiTenantApp.Middleware;
+using MultiTenantApp.Models;
+using MultiTenantApp.Services;
+using MultiTenantApp.Services.ProductService;
+using MultiTenantApp.Services.TenantService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +26,7 @@ builder.Services.AddTransient<ITenantService, TenantService>();
 builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "multiTenantApp", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "MultiTenantApp", Version = "v1" });
 
     c.OperationFilter<TenantHeaderOperationFilter>();
 });

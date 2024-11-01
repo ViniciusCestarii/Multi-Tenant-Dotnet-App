@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using multiTenantApp.Models;
-using multiTenantApp.Services.TenantService.DTOs;
+using MultiTenantApp.Models;
+using MultiTenantApp.Services.TenantService.DTOs;
 
-namespace multiTenantApp.Services.TenantService
+namespace MultiTenantApp.Services.TenantService
 {
     public class TenantService : ITenantService
     {
@@ -25,7 +25,7 @@ namespace multiTenantApp.Services.TenantService
             if (request.Isolated == true)
             {
                 // generate a connection string for new tenant database
-                string dbName = "multiTenantAppDb-" + request.Id;
+                string dbName = "MultiTenantAppDb-" + request.Id;
                 string defaultConnectionString = _configuration.GetConnectionString("DefaultConnection");
                 newConnectionString = defaultConnectionString.Replace("multi-tenant", dbName);
 

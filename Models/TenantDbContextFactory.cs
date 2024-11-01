@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 
-namespace multiTenantApp.Models
+namespace MultiTenantApp.Models
 {
     public class TenantDbContextFactory : IDesignTimeDbContextFactory<TenantDbContext>
     {

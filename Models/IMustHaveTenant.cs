@@ -1,4 +1,4 @@
-﻿namespace multiTenantApp.Models
+﻿namespace MultiTenantApp.Models
 {
     public interface IMustHaveTenant
     {

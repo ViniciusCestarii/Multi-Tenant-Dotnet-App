@@ -1,7 +1,7 @@
-﻿using multiTenantApp.Models;
-using multiTenantApp.Services.ProductService.DTOs;
+﻿using MultiTenantApp.Models;
+using MultiTenantApp.Services.ProductService.DTOs;
 
-namespace multiTenantApp.Services.ProductService
+namespace MultiTenantApp.Services.ProductService
 {
     public class ProductService : IProductService
     {

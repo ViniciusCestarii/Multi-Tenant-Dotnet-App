@@ -1,4 +1,4 @@
-﻿namespace multiTenantApp.Services.ProductService.DTOs
+﻿namespace MultiTenantApp.Services.ProductService.DTOs
 {
     public class CreateProductRequest
     {

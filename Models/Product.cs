@@ -1,5 +1,5 @@
 ﻿
-namespace multiTenantApp.Models
+namespace MultiTenantApp.Models
 {
     // sample business entity
     public class Product : IMustHaveTenant

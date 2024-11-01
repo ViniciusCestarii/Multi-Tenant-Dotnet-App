@@ -1,6 +1,6 @@
-﻿using multiTenantApp.Services;
+﻿using MultiTenantApp.Services;
 
-namespace multiTenantApp.Middleware
+namespace MultiTenantApp.Middleware
 {
     public class TenantResolver
     {

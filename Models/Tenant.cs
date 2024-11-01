@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace multiTenantApp.Models
+namespace MultiTenantApp.Models
 {
     public class Tenant
     {

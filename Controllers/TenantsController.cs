@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using multiTenantApp.Services.TenantService;
-using multiTenantApp.Services.TenantService.DTOs;
+using MultiTenantApp.Services.TenantService;
+using MultiTenantApp.Services.TenantService.DTOs;
 
-namespace multiTenantApp.Controllers
+namespace MultiTenantApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

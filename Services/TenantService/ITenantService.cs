@@ -1,7 +1,7 @@
-﻿using multiTenantApp.Models;
-using multiTenantApp.Services.TenantService.DTOs;
+﻿using MultiTenantApp.Models;
+using MultiTenantApp.Services.TenantService.DTOs;
 
-namespace multiTenantApp.Services.TenantService
+namespace MultiTenantApp.Services.TenantService
 {
     public interface ITenantService
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using multiTenantApp.Models;
+using MultiTenantApp.Models;
 
-namespace multiTenantApp.Extensions
+namespace MultiTenantApp.Extensions
 {
     public static class MultipleDatabaseExtensions
     {

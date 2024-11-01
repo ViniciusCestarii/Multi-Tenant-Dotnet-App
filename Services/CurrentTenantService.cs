@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using multiTenantApp.Models;
+using MultiTenantApp.Models;
 
-namespace multiTenantApp.Services
+namespace MultiTenantApp.Services
 {
     public class CurrentTenantService : ICurrentTenantService
     {

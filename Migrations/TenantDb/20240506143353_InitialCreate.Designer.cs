@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using multiTenantApp.Models;
+using MultiTenantApp.Models;
 
 #nullable disable
 
-namespace multiTenantApp.Migrations.TenantDb
+namespace MultiTenantApp.Migrations.TenantDb
 {
     [DbContext(typeof(TenantDbContext))]
     [Migration("20240506143353_InitialCreate")]
@@ -24,7 +24,7 @@ namespace multiTenantApp.Migrations.TenantDb
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("multiTenantApp.Models.Tenant", b =>
+            modelBuilder.Entity("MultiTenantApp.Models.Tenant", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");

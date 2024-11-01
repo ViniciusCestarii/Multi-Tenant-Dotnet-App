@@ -1,4 +1,4 @@
-﻿namespace multiTenantApp.Services.TenantService.DTOs
+﻿namespace MultiTenantApp.Services.TenantService.DTOs
 {
     public class CreateTenantRequest
     {
