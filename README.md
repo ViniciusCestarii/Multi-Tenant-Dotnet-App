@@ -92,3 +92,15 @@ Now you can navigate to `http://localhost:5284/swagger/index.html` to try the ap
 - .NET 8
 
 - PostgreSQL
+
+## Running with Docker
+
+To run the application with Docker, you can use the following command:
+
+```bash
+docker-compose up
+```
+
+Don't forget to update the connection string in the `appsettings.json` file to point to the PostgreSQL container. (Server=db)
+
+Now you can navigate to `http://localhost:5284/swagger/index.html` to try the application.
