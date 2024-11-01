@@ -6,7 +6,7 @@ This is a sample multi-tenant application that demonstrates how to build a multi
 
 - Tenant Resolution Strategy
 
-CurrentTenantService.cs
+###### CurrentTenantService.cs
 ```cs
 var tenantInfo = await _context.Tenants.Where(x => x.Id == tenant).FirstOrDefaultAsync(); // check if tenant exists
 if (tenantInfo != null)
@@ -23,7 +23,7 @@ else
 
 - Tenant Database Isolation if isolated = `true`
 
-TenantService.cs
+###### TenantService.cs
 ```cs
 public Tenant CreateTenant(CreateTenantRequest request)
 {
@@ -60,7 +60,7 @@ public Tenant CreateTenant(CreateTenantRequest request)
 
 - EF Core Query Filters
 
-ApplicationDbContext.cs
+###### ApplicationDbContext.cs
 ```cs
 // On Model Creating - multitenancy query filter, fires once on app start
 protected override void OnModelCreating(ModelBuilder builder)
