@@ -74,7 +74,7 @@ protected override void OnModelCreating(ModelBuilder builder)
 To get started, clone the repository and run the following commands:
 
 ```bash
-git clone
+git clone https://github.com/ViniciusCestarii/Multi-Tenant-Dotnet-App.git
 ```
 
 ```bash
